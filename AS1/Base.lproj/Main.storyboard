@@ -43,22 +43,6 @@
                                 <rect key="frame" x="349" y="776" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </activityIndicatorView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IGT-bj-9dB">
-                                <rect key="frame" x="114" y="465" width="165" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" name="AccentColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <menu key="menu" id="a7f-z7-AO0">
-                                    <children>
-                                        <command title="Strawberry Watermelon" input="S" id="53G-8u-1GC"/>
-                                        <command title="Mango Blast" id="RRl-Ao-epa"/>
-                                    </children>
-                                </menu>
-                                <state key="normal" title="Pick Here">
-                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
-                                    <color key="titleShadowColor" name="AccentColor"/>
-                                </state>
-                            </button>
                             <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pw6-zg-ZFz">
                                 <rect key="frame" x="0.0" y="284" width="393" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
@@ -75,6 +59,22 @@
                                 <color key="textColor" systemColor="secondaryLabelColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IGT-bj-9dB">
+                                <rect key="frame" x="106" y="439" width="165" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <menu key="menu" id="a7f-z7-AO0">
+                                    <children>
+                                        <command title="Strawberry Watermelon" input="S" id="53G-8u-1GC"/>
+                                        <command title="Mango Blast" id="RRl-Ao-epa"/>
+                                    </children>
+                                </menu>
+                                <state key="normal" title="Pick Here">
+                                    <color key="titleColor" systemColor="systemBackgroundColor"/>
+                                    <color key="titleShadowColor" name="AccentColor"/>
+                                </state>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
